@@ -1,12 +1,4 @@
-// const Footer = () => {
-//     return (
-//       <footer className="bg-gray-900 text-white text-center py-6">
-//         <p>&copy; {new Date().getFullYear()} CCS Real Estate Pvt. Ltd. All Rights Reserved.</p>
-//       </footer>
-//     );
-//   };
-  
-//   export default Footer;
+
 import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
@@ -17,7 +9,7 @@ const Footer = () => {
     <footer className=" text-white py-10 bg-sky-700 mt-2 mb-0">
       <div className="container mx-auto px-6 py-4 bg-opacity-15 font-bold bg-cover bg-center bg-repeat" style={{ backgroundImage: "url('city.jpg')" }}>
         <div className="flex flex-wrap justify-between">
-          <div className="w-full md:w-1/3 mb-6">
+          <div className="w-full md:w-1/4 mb-6">
             <img src="logo-icon.png" alt="CCS Logo" className="h-16 mb-4" />
             <p>Search Real Estate in Chandigarh - Buy, Sell and Rent Best Residential Properties in Chandigarh by Real Property owners, Dealers, Builders, and Real Estate Agents.</p>
             <p className="mt-2"><FaLocationDot></FaLocationDot> B-210, 2nd Floor, Elante Offices, Industrial Area Phase - 1, Chandigarh</p>
@@ -50,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="w-full md:w-1/4 mb-6">
+          <div className="w-full md:w-1/4 mb-6 ">
             <h3 className="text-lg font-semibold mb-3">Gallery</h3>
             <div className="grid grid-cols-2 gap-2">
               <img src="property1-ftr.jpg" alt="Property 1" className="rounded-lg" />
